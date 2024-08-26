@@ -1,0 +1,26 @@
+name: Bump Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      DRY_RUN:
+        type: boolean
+        description: "DRY_RUN: If true, apply will NOT be run after plan."
+        default: false
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency: terraform-github-${{ github.ref }}
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: simple

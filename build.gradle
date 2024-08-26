@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+    id("org.gretty") version "4.1.4"
+    //id("org.gretty") version "3.0.5"
+}
+
+group = 'com.test'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+}
+
+application {
+    // Define the main class for the application.
+    applicationDefaultJvmArgs = ['-Dgreeting.language=en']
+    mainClass = 'com.test.Main'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+gretty {
+    servletContainer = 'tomcat10'
+    //servletContainer = 'tomcat9'
+    contextPath = '/'
+}
