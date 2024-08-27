@@ -22,4 +22,19 @@ public class ListOfNameTest {
             fail("Erro ao ler o arquivo lista_nomes.txt: " + e.getMessage());
         }
     }
+
+    @Test
+    public void testMatheusYamaguchiInList() {
+        String filePath = "lista_nomes.txt";
+        String gitHubLogin = "matheus_yamaguchi"; // Substitua pelo seu nome_sobrenome
+
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(filePath));
+            //boolean containsLogin = lines.stream().anyMatch(line -> line.contains(gitHubLogin));
+            boolean containsLogin = lines.stream().anyMatch(line -> line.equals(gitHubLogin));
+            assertTrue(containsLogin, "O arquivo lista_nomes.txt deve conter o login exato do GitHub do autor do commit.");
+        } catch (IOException e) {
+            fail("Erro ao ler o arquivo lista_nomes.txt: " + e.getMessage());
+        }
+    }
 }
