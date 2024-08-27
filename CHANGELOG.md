@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/hjunior/trunk-demo-list-names/compare/v1.0.0...v1.0.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* correcao nome humberto ([021581c](https://github.com/hjunior/trunk-demo-list-names/commit/021581c5be5723c61cd98624fcbdb71d585b5551))
+
 ## 1.0.0 (2024-08-26)
 
 
