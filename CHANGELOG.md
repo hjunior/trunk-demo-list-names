@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.0](https://github.com/hjunior/trunk-demo-list-names/compare/v1.1.0...v1.2.0) (2024-08-27)
+
+
+### Features
+
+* add Wesley Vicente to lista_nomes.txt ([b92827f](https://github.com/hjunior/trunk-demo-list-names/commit/b92827f24d0657aecf59d72e4c550eb08ec5c906))
+* Creating file at the root of the project ([272b77d](https://github.com/hjunior/trunk-demo-list-names/commit/272b77d8c19bde9e2ba7bad5ad40fc08e2f423e8))
+* creating file felipe_frederico ([34ddbac](https://github.com/hjunior/trunk-demo-list-names/commit/34ddbacaacfbad2e95d6d0a6abf0443cecc63f93))
+* creating file felipe_frederico ([8e3f51c](https://github.com/hjunior/trunk-demo-list-names/commit/8e3f51ceb48d387c2b31b5dedcbb468fb4b1d1f9))
+* criou o arquivo laura_rebeca.txt ([#14](https://github.com/hjunior/trunk-demo-list-names/issues/14)) ([43471be](https://github.com/hjunior/trunk-demo-list-names/commit/43471bee85e2cb34a648cc68cc4c6bf05c9fa4c0))
+* Test class ([6a38f83](https://github.com/hjunior/trunk-demo-list-names/commit/6a38f834a0d4f08d13edae237a3e275a68791bc0))
+
+
+### Bug Fixes
+
+* update listanomes ([4728f62](https://github.com/hjunior/trunk-demo-list-names/commit/4728f62e284f663eb30c2a43761701e9be379a2b))
+
 ## [1.1.0](https://github.com/hjunior/trunk-demo-list-names/compare/v1.0.1...v1.1.0) (2024-08-27)
 
 
